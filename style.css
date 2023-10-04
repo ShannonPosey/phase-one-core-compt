@@ -3,7 +3,7 @@ body {
 background-image: url("/images/800px-LinkinParkBerlin2010.jpg");
 background-repeat: no-repeat;
 background-size: cover;
-text-align: center;
+
 }
 
 h1, h2, h3 {
@@ -19,6 +19,26 @@ p {
 font-family: 'Montserrat', sans-serif;
 }
 
+#hunting {
+text-align: center;
+margin: 35px 0;
+}
+
+#hunting p {
+    text-transform: uppercase;
+}
+
+#tour {
+    display: flex;
+    justify-content: center;
+}
+
+.tix {
+    width: 560px; 
+    height: 315px;
+    margin-right: 15px;
+    border-radius: 45px;
+}
 
 #video {
     display: flex;
