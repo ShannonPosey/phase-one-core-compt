@@ -1,9 +1,9 @@
 body {
     color: #fff;
-/* background-image: url("/images/800px-LinkinParkBerlin2010.jpg");
+background-image: url("/images/800px-LinkinParkBerlin2010.jpg");
 background-repeat: no-repeat;
-background-size: cover; */
-background: url("/images/800px-LinkinParkBerlin2010.jpg") cover no-repeat;
+background-size: cover; 
+/* background: url("/images/800px-LinkinParkBerlin2010.jpg") cover no-repeat; */
 }
 
 h1, h2, h3 {
@@ -55,10 +55,13 @@ margin: 35px 0;
 }
 
 .video-left {
+    margin-top: 10px;
 margin-right: 10px;    
 }
 
-.video-right {}
+.video-right {
+    margin-top: 20px;
+}
 
 footer {
     text-align: center;
