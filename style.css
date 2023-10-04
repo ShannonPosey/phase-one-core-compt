@@ -1,0 +1,36 @@
+body {
+    color: #fff;
+background-image: url("/images/800px-LinkinParkBerlin2010.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+font-family: 'Montserrat', sans-serif;
+}
+
+
+#video {
+    display: flex;
+    justify-content: center;
+}
+
+.video-left {
+margin-right: 10px;    
+}
+
+.video-right {}
+
+footer {
+    text-align: center;
+}
